@@ -128,7 +128,7 @@ Detects and localizes targets
 
 **👨‍💻 Author**
 
-Aarya F
+Aarya Farheen
 MS in Autonomy – Purdue University
 
 ---
