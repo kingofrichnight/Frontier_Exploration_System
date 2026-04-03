@@ -40,7 +40,7 @@ Frontier_Exploration_System/
 │── CMakeLists.txt
 │── package.xml
 
-
+```
 ---
 
 ## ⚙️ Requirements
@@ -63,32 +63,51 @@ colcon build
 source install/setup.bash
 3. Launch Simulation
 ros2 launch Frontier_Exploration_System turtlebot3_house.launch.py
+
+```
 🔹 Task Breakdown
 🧭 Task 1: Frontier Exploration
 
 The Frontier Exploration module enables the robot to autonomously explore unknown environments using a frontier-based strategy. The robot detects boundaries between known and unknown regions, selects exploration goals, and navigates iteratively until the environment is fully explored.
 
 ▶ Run Task 1
+```bash
 ros2 run Frontier_Exploration_System task1
+
+```
+---
+
 🚧 Task 2: Navigation with Static Obstacles
 
 This task enables safe navigation in environments with static obstacles. The robot uses path planning and costmaps to generate collision-free trajectories and reach target goals efficiently.
 
 ▶ Run Task 2
+```bash
 ros2 run Frontier_Exploration_System task2
+```
 ⭐ Bonus: Enhanced Navigation
+```bash
 ros2 launch turtlebot3_gazebo navigator.launch.py static_obstacles:=true bonus:=true
+```
+---
+
 🔍 Task 3: Search and Localization
 
 This module allows the robot to search for and localize objects within the environment. It integrates perception and navigation to detect targets and estimate their positions.
 
 ▶ Run Task 3
+```bash
 ros2 run Frontier_Exploration_System task3
+```
 ▶ Run with Object Spawning
+```bash
 ros2 launch turtlebot3_gazebo navigator.launch.py spawn_objects:=true
 🎯 Project Objective
+```
 
-This project demonstrates a complete autonomous robotics pipeline integrating:
+---
+
+**This project demonstrates a complete autonomous robotics pipeline integrating:**
 
 Mapping
 Exploration
@@ -97,7 +116,7 @@ Obstacle avoidance
 Localization
 📊 Results
 
-The robot successfully:
+**The robot successfully:**
 
 Explores unknown environments
 Builds occupancy grid maps
@@ -107,7 +126,7 @@ Detects and localizes targets
 
 ---
 
-👨‍💻 Author
+**👨‍💻 Author**
 
 Aarya F
 MS in Autonomy – Purdue University
