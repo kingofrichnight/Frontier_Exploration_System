@@ -20,8 +20,8 @@ The system is implemented and tested in simulation using **TurtleBot3**, **Gazeb
 
 ---
 
-###📁 Project Structure
-
+##📁 Project Structure
+```bash
 
 Frontier_Exploration_System/
 │── launch/ # Launch files for simulation and tasks
